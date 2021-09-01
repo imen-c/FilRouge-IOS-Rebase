@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  filRouge
+
+  Created by Anthony on 01/07/2021.
+  
+*/
+
+"emailPlaceholder" = "... ton email";
+"passwordPlaceholder" = "... ton mot de passe";
+"connectCTA" = "Se connecter";
+"helloLogin" = "Hey ! Komen ksé ?!";
+"errorLogin" = "Pas facile de taper avec des gros doigts ...";
+"successLogin" = "Waaaaaaa ! C’est tout vert !";
+"loginEditing" = "Tap tap tap tap tap tap ...";
+
+// HOME
+"home_hello" = "Coucou";
+"home_name" = "Jean-Kévin!";
+"home_item_eat" = "J'ai une faim d'loup !";
+"home_item_happy" = "Jsuis en dep !";
+"home_item_move" = "Faut qu'jme bouge !";

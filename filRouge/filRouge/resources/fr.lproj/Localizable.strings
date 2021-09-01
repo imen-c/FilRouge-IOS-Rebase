@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  filRouge
+
+  Created by Anthony on 01/07/2021.
+  
+*/
+
+"emailPlaceholder" = "... ton email";
+"passwordPlaceholder" = "... ton mot de passe";
+"connectCTA" = "Se connnecter";
+"helloLogin" = "Hey ! Komen ksé ?!";
+"LoginError" = "Pas facile de taper avec des gros doigts ...";
+"LoginSuccess" = "Waaaaaaa ! C’est tout vert !";
