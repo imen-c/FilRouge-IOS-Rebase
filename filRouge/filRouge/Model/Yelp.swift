@@ -9,22 +9,22 @@ import Foundation
 
 struct YelpJSON: Codable{
     var businesses : [Resto]?
-   // var total : Int?
-    //var region : Region?
+    var total : Int?
+    var region : Region?
 }
 
 struct Resto : Codable{
-    var name : String?
-    //var image_url : String?
-    //var url : String?
-   // var categories : [Categories]?
-   // var coordinates : [Coordonnees]?
-   // var location : [Address]?
-   // var phone : String?
-   // var distance : Double?
+    var alias : String?
+    var image_url : String?
+    var url : String?
+  var categories : [Categories]?
+    //var coordinates : [Coordonnees]?
+    //var location : [Address]?
+    var phone : String?
+   var distance : Double?
     
 }
-/*struct Categories : Codable{
+struct Categories : Codable{
     var alias : String?
     var title : String?
 }
@@ -45,4 +45,4 @@ struct Region : Codable{
 struct CoordonneesRegion : Codable{
     var latitude : Double?
     var longitude : Double?
-}*/
+}

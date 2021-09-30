@@ -9,7 +9,9 @@ import UIKit
 
 class EatTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var imageCell: UIImageView!
+  
+    @IBOutlet weak var cadre: UIView!
+    @IBOutlet weak var imageResto: UIImageView!
     @IBOutlet weak var type: UILabel!
     @IBOutlet weak var nomResto: UILabel!
     @IBOutlet weak var iconeLocalisation: UIImageView!
@@ -23,7 +25,9 @@ class EatTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        self.cadre.layer.cornerRadius = 25
+        self.cadre.clipsToBounds = true
+        //self.cadre.backgroundColor = .blue
         // Configure the view for the selected state
     }
     

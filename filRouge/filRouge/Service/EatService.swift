@@ -15,9 +15,9 @@ class EatService{
 
     
     func eats(completionHandler : @escaping eatsCompletionHandler){
-    let headers : HTTPHeaders = [
-        "Authorization " : "Basic HIDoGGdojcL__53LiCdiYMFAOb3BwjGJubVSrXWaiaf18pCPg-kcOhMfGlgYed49WO5CLsAk7zGSX5KZCogK2VALtSu_X489y2ODvymFnAkE2CzWld8d9ZmUAjIvYXYx",
-        "Accept":"application/json"
+        let headers : HTTPHeaders = [.authorization(bearerToken: "HIDoGGdojcL__53LiCdiYMFAOb3BwjGJubVSrXWaiaf18pCPg-kcOhMfGlgYed49WO5CLsAk7zGSX5KZCogK2VALtSu_X489y2ODvymFnAkE2CzWld8d9ZmUAjIvYXYx")
+       
+        
     
     ]
         let parameters : [String : Any] = [
@@ -29,7 +29,8 @@ class EatService{
         ]
         AF.request("https://api.yelp.com/v3/businesses/search", parameters: parameters, headers :headers).responseJSON{dataResponse in
             switch dataResponse.result{
-            case.success:
+            case .success:
+                
                 if let data = dataResponse.data{
                     print("DATA FROM SERVER: \(data)")
                     let jsonDecoder = JSONDecoder()

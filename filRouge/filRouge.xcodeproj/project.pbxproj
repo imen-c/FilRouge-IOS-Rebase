@@ -30,6 +30,7 @@
 		A9A8A9E726441F9600F35451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A8A9E526441F9600F35451 /* Main.storyboard */; };
 		A9A8A9E926441F9900F35451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A8A9E826441F9900F35451 /* Assets.xcassets */; };
 		A9A8A9EC26441F9900F35451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A8A9EA26441F9900F35451 /* LaunchScreen.storyboard */; };
+		F165FB042705ADCF0083B9D6 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = F165FB032705ADCF0083B9D6 /* AlamofireImage */; };
 		F175680226DF6153004A139C /* EatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F175680026DF6153004A139C /* EatTableViewCell.swift */; };
 		F175680326DF6153004A139C /* EatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F175680126DF6153004A139C /* EatTableViewCell.xib */; };
 		F175680526DF64C7004A139C /* EatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F175680426DF64C7004A139C /* EatService.swift */; };
@@ -73,6 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A90F4A2126B16D2A001D56FD /* Alamofire in Frameworks */,
+				F165FB042705ADCF0083B9D6 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				A9A8A9E526441F9600F35451 /* Main.storyboard */,
-				F175680026DF6153004A139C /* EatTableViewCell.swift */,
-				F175680126DF6153004A139C /* EatTableViewCell.xib */,
 				A9A8A9EA26441F9900F35451 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
@@ -157,6 +157,8 @@
 		A90F4A1B26B15356001D56FD /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				F175680126DF6153004A139C /* EatTableViewCell.xib */,
+				F175680026DF6153004A139C /* EatTableViewCell.swift */,
 				92815AB3268F2EEC002790E8 /* HomeItemCollectionViewCell.swift */,
 				92815AB4268F2EEC002790E8 /* HomeItemCollectionViewCell.xib */,
 				A90F4A1726B15350001D56FD /* JokeTableViewCell.swift */,
@@ -227,6 +229,7 @@
 			name = filRouge;
 			packageProductDependencies = (
 				A90F4A2026B16D2A001D56FD /* Alamofire */,
+				F165FB032705ADCF0083B9D6 /* AlamofireImage */,
 			);
 			productName = filRouge;
 			productReference = A9A8A9DC26441F9600F35451 /* filRouge.app */;
@@ -256,6 +259,7 @@
 			mainGroup = A9A8A9D326441F9600F35451;
 			packageReferences = (
 				A90F4A1F26B16D2A001D56FD /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F165FB022705ADCF0083B9D6 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
 			);
 			productRefGroup = A9A8A9DD26441F9600F35451 /* Products */;
 			projectDirPath = "";
@@ -518,6 +522,14 @@
 				minimumVersion = 5.4.3;
 			};
 		};
+		F165FB022705ADCF0083B9D6 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -525,6 +537,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A90F4A1F26B16D2A001D56FD /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		F165FB032705ADCF0083B9D6 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F165FB022705ADCF0083B9D6 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

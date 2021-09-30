@@ -199,26 +199,25 @@
                                 <rect key="frame" x="0.0" y="359" width="414" height="537"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qhu-5o-Lfa">
-                                        <rect key="frame" x="8" y="8" width="398" height="438"/>
+                                        <rect key="frame" x="0.0" y="8" width="414" height="438"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="438" id="Cr6-ph-4qM"/>
-                                            <constraint firstAttribute="width" constant="398" id="w7u-4m-yOb"/>
                                         </constraints>
                                     </tableView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="537" id="C7g-qj-xGt"/>
-                                    <constraint firstItem="qhu-5o-Lfa" firstAttribute="leading" secondItem="jYQ-Sw-LNV" secondAttribute="leading" constant="8" id="TtU-99-0Ag"/>
-                                    <constraint firstAttribute="trailing" secondItem="qhu-5o-Lfa" secondAttribute="trailing" constant="8" id="chr-80-Cul"/>
+                                    <constraint firstItem="qhu-5o-Lfa" firstAttribute="leading" secondItem="jYQ-Sw-LNV" secondAttribute="leading" id="TtU-99-0Ag"/>
+                                    <constraint firstAttribute="trailing" secondItem="qhu-5o-Lfa" secondAttribute="trailing" id="chr-80-Cul"/>
                                     <constraint firstAttribute="bottom" secondItem="qhu-5o-Lfa" secondAttribute="bottom" constant="91" id="ub3-07-kP1"/>
                                 </constraints>
                             </view>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="UY8-Nc-Kaw">
-                                <rect key="frame" x="0.0" y="88" width="414" height="263"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="215"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="263" id="Gaj-cr-CEc"/>
+                                    <constraint firstAttribute="height" constant="215" id="Gaj-cr-CEc"/>
                                 </constraints>
                             </mapView>
                         </subviews>
