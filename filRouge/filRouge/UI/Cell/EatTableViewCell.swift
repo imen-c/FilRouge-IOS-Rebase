@@ -27,6 +27,7 @@ class EatTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
         self.cadre.layer.cornerRadius = 25
         self.cadre.clipsToBounds = true
+        //    masktobounds
         //self.cadre.backgroundColor = .blue
         // Configure the view for the selected state
     }
