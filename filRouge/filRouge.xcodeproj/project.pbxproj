@@ -35,6 +35,8 @@
 		F175680326DF6153004A139C /* EatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F175680126DF6153004A139C /* EatTableViewCell.xib */; };
 		F175680526DF64C7004A139C /* EatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F175680426DF64C7004A139C /* EatService.swift */; };
 		F175680726DF7A96004A139C /* Yelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F175680626DF7A96004A139C /* Yelp.swift */; };
+		F185640F2721AF3E0072CB0E /* Bouger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185640E2721AF3E0072CB0E /* Bouger.swift */; };
+		F18564112721B6420072CB0E /* BougerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18564102721B6420072CB0E /* BougerService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,8 @@
 		F175680126DF6153004A139C /* EatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EatTableViewCell.xib; sourceTree = "<group>"; };
 		F175680426DF64C7004A139C /* EatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatService.swift; sourceTree = "<group>"; };
 		F175680626DF7A96004A139C /* Yelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yelp.swift; sourceTree = "<group>"; };
+		F185640E2721AF3E0072CB0E /* Bouger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bouger.swift; sourceTree = "<group>"; };
+		F18564102721B6420072CB0E /* BougerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BougerService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,7 @@
 			children = (
 				A90F4A1226B1521F001D56FD /* Joke.swift */,
 				F175680626DF7A96004A139C /* Yelp.swift */,
+				F185640E2721AF3E0072CB0E /* Bouger.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 			children = (
 				A90F4A1C26B16A7D001D56FD /* JokeService.swift */,
 				F175680426DF64C7004A139C /* EatService.swift */,
+				F18564102721B6420072CB0E /* BougerService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -295,10 +301,12 @@
 				F175680226DF6153004A139C /* EatTableViewCell.swift in Sources */,
 				A98DBD972670D90900615DDE /* CustomNavigationController.swift in Sources */,
 				A98DBD9D2670D96400615DDE /* EatViewController.swift in Sources */,
+				F185640F2721AF3E0072CB0E /* Bouger.swift in Sources */,
 				A98DBDA12670D99A00615DDE /* MoveViewController.swift in Sources */,
 				A9A8A9E426441F9600F35451 /* LoginViewController.swift in Sources */,
 				A98DBD992670D93800615DDE /* CustomTabBarController.swift in Sources */,
 				A9A8A9E026441F9600F35451 /* AppDelegate.swift in Sources */,
+				F18564112721B6420072CB0E /* BougerService.swift in Sources */,
 				A90F4A1D26B16A7D001D56FD /* JokeService.swift in Sources */,
 				A90F4A1326B1521F001D56FD /* Joke.swift in Sources */,
 				F175680726DF7A96004A139C /* Yelp.swift in Sources */,

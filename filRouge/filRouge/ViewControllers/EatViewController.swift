@@ -82,8 +82,9 @@ extension EatViewController : UITableViewDelegate,UITableViewDataSource{
         cell.type.textColor = .red
         cell.type.sizeFont(10)
         cell.iconeLocalisation.image = UIImage(named: "endroit")
-        //cell.ville.text = eats[indexPath.row].location?[0].city
+        
         cell.iconeEnter.image = UIImage(named: "icoArrowRightRose")
+        cell.ville.text = eats[indexPath.row].location?.city
         
         return cell
     }

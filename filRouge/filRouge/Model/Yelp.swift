@@ -19,7 +19,7 @@ struct Resto : Codable{
     var url : String?
   var categories : [Categories]?
     //var coordinates : [Coordonnees]?
-    //var location : [Address]?
+    var location : Address?
     var phone : String?
    var distance : Double?
     
